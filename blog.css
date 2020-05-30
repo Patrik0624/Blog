@@ -1,0 +1,134 @@
+/*==========CSS RESET==========*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*==========OTHER==========*/
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+/*==========HEADER==========*/
+header {
+  background-color: #6200EA;
+  height: 80px;
+  width: 100vw;
+  color: white;
+	text-transform: uppercase;
+	text-align: center;
+	display: table;
+	letter-spacing: 0.2rem;
+}
+.logo-text {
+	width: 14rem;
+	height: 3rem;
+	font-size: 1.3rem;
+	position: absolute;
+	left: calc(50vw - 7rem);
+	top: 16px;
+}
+#logo {
+	height: 3rem;
+	width: 3rem;
+	border: 2px solid white;
+	border-radius: 50%;
+	display: inline-block;
+	float: left;
+	margin-left: 10px;
+}
+.logo-text h1 {
+	display: inline-block;
+	float: right;
+	margin-top: 15px;
+	margin-left: 10px;
+}
+.subscribe a {
+	border: 1px solid white;
+	background-color: white;
+	border-radius: 2rem;
+	padding: 0.7rem 1.5rem;
+	font-size: 0.9rem;
+	float: left;
+	color: #6200EA;
+	font-weight: bold;
+}
+.subscribe {
+	position: absolute;
+	top: 20px;
+	left: 9vw;
+}
+@media screen and (max-width: 1200px) {
+	.subscribe {
+		left: 1rem;
+	}
+}
+/*==========NAV==========*/
+nav {
+	height: 80px;
+	width: 100vw;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	padding-top: 1.5rem;
+	font-weight: bold;
+	letter-spacing: 0.2rem;
+}
+nav a {
+	color: black;
+	padding: 1.5rem 2vw;
+}
+.current {
+	color: #6200EA;
+	border-bottom: 1px solid #6200EA;
+}
+@media screen and (max-width: 1000px) {
+	nav a {
+		padding: 1.3rem 1vw;
+		letter-spacing: 0.1rem;
+		font-size: 0.7rem;
+	}
+}
