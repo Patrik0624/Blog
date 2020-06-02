@@ -101,7 +101,7 @@ header {
 .subscribe {
 	position: absolute;
 	top: 20px;
-	left: 9vw;
+	left: 13vw;
 }
 .subscribe a:hover {
 	background-color: #6200EA;
@@ -127,7 +127,7 @@ nav {
 	background-color: white;
 }
 nav a {
-	color: black;
+	color: #211138;
 	padding: 1.5rem 2vw;
 }
 .current {
@@ -135,9 +135,8 @@ nav a {
 	border-bottom: 2px solid #6200EA;
 }
 nav a:hover {
-	color: rgb(100,100,100);
 	transition: 0.1s ease-in-out;
-	border-bottom: 2px solid rgb(100,100,100);
+	border-bottom: 2px solid #211138;
 }
 .current:hover {
 	color: #6200EA;
@@ -156,6 +155,7 @@ nav a:hover {
 	padding-top: 2rem;
 	width: 80vw;
 	margin: auto;
+	color: #211138;
 }
 	/*-----FEATURED BLOG POST-----*/
 .featured-blog-post {
@@ -194,7 +194,7 @@ nav a:hover {
 	letter-spacing: 0.2rem;
 }
 .featured-blog-post a:hover {
-	color: black;
+	color: #211138;
 	background-color: white;
 	transition: 0.1s ease-in-out;
 }
@@ -263,7 +263,7 @@ nav a:hover {
 	width: calc(26vw - 8rem);
 }
 .latest-news a:hover {
-	color: black;
+	color: #211138;
 	transition: 0.1s ease-in-out;
 }
 		/*-----BUSINESS AND CULTURE-----*/
@@ -411,7 +411,7 @@ nav a:hover {
 	width: calc(26vw - 8rem);
 }
 .recommended-news a:hover {
-	color: black;
+	color: #211138;
 	transition: 0.1s ease-in-out;
 }
 		/*-----BLOG POST WITH IMAGE-----*/
@@ -496,7 +496,7 @@ nav a:hover {
 			border-top: 1px solid #F4F3F5;
 		}
 		.categories a:hover {
-			color: black;
+			color: #211138;
 			transition: 0.1s ease-in-out;
 		}
 		.categories li {
