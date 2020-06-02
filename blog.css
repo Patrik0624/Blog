@@ -199,7 +199,7 @@ nav a {
 	text-align: center;
 	color: white;
 	text-transform: uppercase;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
 	letter-spacing: 0.2rem;
 	font-weight: bold;
 	padding-top: 1.7rem;
@@ -208,10 +208,10 @@ nav a {
 	display: inline-block;
 	width: calc(35vw - 8rem);
 	margin: 1rem 1rem 0 0.7rem;
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 	position: absolute;
 	top: 0;
-	line-height: 0.7rem;
+	line-height: 0.9rem;
 }
 .latest-news h3 {
 	color: #6200EA;
@@ -225,16 +225,18 @@ nav a {
 	position: relative;
 }
 .latest-news a {
-	text-align: center;
+	height: 4rem;
 	display: block;
-	margin: 0 0 1.5rem;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+	color: #B2ACBA;
 	text-transform: uppercase;
 	font-size: 0.7rem;
-	font-weight: bold;
 	letter-spacing: 0.2rem;
-	color: #B2ACBA;
+	font-weight: bold;
+	padding-top: 1.7rem;
 	border-top: 1px solid #F4F3F5;
-	padding-top: 1.4rem;
 }
 .latest-news p {
 	width: calc(26vw - 8rem);
@@ -243,6 +245,7 @@ nav a {
 .business-culture {
 	width: 52vw;
 	margin-top: 2vw;
+	float: left;
 }
 .business, .culture {
 	background-color: #FFFFFF;
@@ -258,9 +261,9 @@ nav a {
 	width: calc(25vw - 8rem);
 	position: absolute;
 	top: 1rem;
-	font-size: 0.6rem;
+	font-size: 0.8rem;
 	margin-left: 0.5rem;
-	line-height: 0.7rem;
+	line-height: 0.9rem;
 }
 .culture {
 	float: right;
@@ -287,6 +290,7 @@ nav a {
 	margin-top: 2vw;
 	line-height: 1.5rem;
 	display: inline-block;
+	float: left;
 }
 .sample-blog h2 {
 	font-weight: bold;
@@ -310,6 +314,72 @@ nav a {
 .sample-blog .uppercase {
 	color: #B2ACBA;
 }
+		/*-----RECOMMENDED NEWS-----*/
+.recommended-news {
+	display: inline-block;
+	float: right;
+	background-color: white;
+	border-radius: 10px;
+	width: 26vw;
+	margin-top: 2vw;
+}
+.recommended-news img {
+	width: 5rem;
+	border-radius: 10px;
+	display: inline-block;
+	margin: 1rem;
+	margin-right: 0;
+}
+.recommended-news h2 {
+	background-color: #6200EA;
+	height: 4rem;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	text-align: center;
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	letter-spacing: 0.2rem;
+	font-weight: bold;
+	padding-top: 1.7rem;
+}
+.science-content, .travel-content, .world-content {
+	display: inline-block;
+	width: calc(35vw - 8rem);
+	margin: 1rem 1rem 0 0.7rem;
+	font-size: 0.8rem;
+	position: absolute;
+	top: 0;
+	line-height: 0.9rem;
+}
+.recommended-news h3 {
+	color: #6200EA;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 0.7rem;
+	letter-spacing: 0.1rem;
+	margin-bottom: 0.4rem;
+}
+.science, .travel, .world {
+	position: relative;
+}
+.recommended-news a {
+	height: 4rem;
+	display: block;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	text-align: center;
+	color: #B2ACBA;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	letter-spacing: 0.2rem;
+	font-weight: bold;
+	padding-top: 1.7rem;
+	border-top: 1px solid #F4F3F5;
+}
+.recommended-news p {
+	width: calc(26vw - 8rem);
+}
 		/*-----MEDIA QUERY-----*/
 @media screen and (min-width: 1350px) {
 	.content {
@@ -318,16 +388,16 @@ nav a {
 	.featured-blog-post, .sample-blog {
 		width: 44vw;
 	}
-	.latest-news {
+	.latest-news, .recommended-news {
 		width: 22vw
 	}
-	.latest-news img, .business-culture img {
+	.latest-news img, .business-culture img, .recommended-news img {
 		width: 7rem;
 	}
-	.latest-news p {
+	.latest-news p, .recommended-news p {
 		width: calc(22vw - 10rem);
 	}
-	.design-content, .health-content, .politics-content {
+	.design-content, .health-content, .politics-content, .science-content, .travel-content, .world-content, {
 		font-size: 0.9rem;
 		line-height: 1.1rem;
 	}
@@ -344,16 +414,16 @@ nav a {
 		font-size: 0.9rem;
 		line-height: 1.1rem;
 	}
-	.latest-news h3, .business-culture h3 {
+	.latest-news h3, .business-culture h3, .recommended-news h3 {
 		font-size: 0.8rem;
 		margin-bottom: 1rem;
 	}
-	.sample-blog {
+	.sample-blog, .recommended-news {
 		margin-top: 1vw;
 	}
 }
 @media screen and (min-width: 1733px) {
-	.design-content, .health-content, .politics-content, .business-content, .culture-content {
+	.design-content, .health-content, .politics-content, .business-content, .culture-content, .science-content, .travel-content, .world-content {
 		font-size: 1rem;
 		line-height: 1.2rem;
 	}
