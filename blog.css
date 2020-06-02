@@ -141,11 +141,12 @@ nav a {
 	width: 80vw;
 	margin: auto;
 }
+	/*-----FEATURED BLOG POST-----*/
 .featured-blog-post {
 	background: url("assets/roberto-nickson-5ui0tfMC5ts-unsplash.jpg") center center no-repeat;
 	background-size: cover;
 	width: 52vw;
-	padding: 2rem;
+	padding: 3rem;
 	border-radius: 10px;
 	color: white;
 	line-height: 1.5rem;
@@ -159,11 +160,13 @@ nav a {
 }
 .featured-blog-post a {
 	color: white;
-	border: 1px solid white;
+	border: 2px solid white;
 	border-radius: 2rem;
 	padding: 0.5rem 1.5rem;
 	text-transform: uppercase;
-	font-size: 0.8rem;
+	font-size: 0.7rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
 }
 .featured-blog-post p {
 	margin-bottom: 1rem;
@@ -174,6 +177,7 @@ nav a {
 	font-size: 0.7rem;
 	letter-spacing: 0.2rem;
 }
+		/*-----LATEST NEWS-----*/
 .latest-news {
 	float: right;
 	background-color: white;
@@ -235,6 +239,7 @@ nav a {
 .latest-news p {
 	width: calc(26vw - 8rem);
 }
+		/*-----BUSINESS AND CULTURE-----*/
 .business-culture {
 	width: 52vw;
 	margin-top: 2vw;
@@ -273,11 +278,44 @@ nav a {
 	letter-spacing: 0.1rem;
 	margin-bottom: 0.2rem;
 }
+		/*-----SAMPLE BLOG POST-----*/
+.sample-blog {
+	background-color: white;
+	border-radius: 10px;
+	padding: 3rem;
+	width: 52vw;
+	margin-top: 2vw;
+	line-height: 1.5rem;
+	display: inline-block;
+}
+.sample-blog h2 {
+	font-weight: bold;
+	font-size: 2rem;
+	margin: 1rem 0;
+	line-height: 2rem;
+}
+.sample-blog a {
+	color: #6200EA;
+	border: 2px solid #6200EA;
+	border-radius: 2rem;
+	padding: 0.5rem 1.5rem;
+	text-transform: uppercase;
+	font-size: 0.7rem;
+	font-weight: bold;
+	letter-spacing: 0.1rem;
+}
+.sample-blog p {
+	margin-bottom: 1rem;
+}
+.sample-blog .uppercase {
+	color: #B2ACBA;
+}
+		/*-----MEDIA QUERY-----*/
 @media screen and (min-width: 1350px) {
 	.content {
 		width: 67vw;
 	}
-	.featured-blog-post {
+	.featured-blog-post, .sample-blog {
 		width: 44vw;
 	}
 	.latest-news {
@@ -290,24 +328,33 @@ nav a {
 		width: calc(22vw - 10rem);
 	}
 	.design-content, .health-content, .politics-content {
-		font-size: 1rem;
-		line-height: 1.2rem;
+		font-size: 0.9rem;
+		line-height: 1.1rem;
 	}
 	.business-culture {
 		width: 44vw;
 		margin-top: 1vw;
 	}
 	.business, .culture {
-		width: 21vw;
+		width: 21.5vw;
 		height: 9rem;
 	}
 	.business-content, .culture-content {
 		width: calc(21vw - 10rem);
-		font-size: 1rem;
-		line-height: 1.2rem;
+		font-size: 0.9rem;
+		line-height: 1.1rem;
 	}
 	.latest-news h3, .business-culture h3 {
 		font-size: 0.8rem;
 		margin-bottom: 1rem;
+	}
+	.sample-blog {
+		margin-top: 1vw;
+	}
+}
+@media screen and (min-width: 1733px) {
+	.design-content, .health-content, .politics-content, .business-content, .culture-content {
+		font-size: 1rem;
+		line-height: 1.2rem;
 	}
 }
