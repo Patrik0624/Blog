@@ -521,6 +521,7 @@ nav a:hover {
 		line-height: 1.5rem;
 		display: inline-block;
 		float: left;
+		margin-bottom: 3vw;
 	}
 	.another-blog h2 {
 		font-weight: bold;
@@ -596,4 +597,24 @@ nav a:hover {
 		font-size: 1rem;
 		line-height: 1.2rem;
 	}
+}
+/*==========FOOTER==========*/
+footer {
+	background-color: #211138;
+	width: 100vw;
+	height: 80px;
+	color: #B2ACBA;
+	text-align: center;
+	display: table;
+}
+footer p {
+	display: table-cell;
+	vertical-align: middle;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-size: 0.8rem;
+	letter-spacing: 0.1rem;
+}
+footer a {
+	color: #6200EA;
 }
