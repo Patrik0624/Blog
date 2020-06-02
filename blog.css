@@ -505,7 +505,7 @@ nav a:hover {
 			font-size: 0.7rem;
 			line-height: 2.5rem;
 			text-transform: uppercase;
-			padding-left: 1rem;
+			padding-left: 2rem;
 			border-bottom: 1px solid #F4F3F5;
 		}
 		.categories li:hover {
@@ -519,7 +519,7 @@ nav a:hover {
 	.featured-blog-post, .sample-blog, .blog-img, .blog-img img {
 		width: 44vw;
 	}
-	.latest-news, .recommended-news {
+	.latest-news, .recommended-news, .categories {
 		width: 22vw
 	}
 	.latest-news img, .business-culture img, .recommended-news img {
@@ -549,7 +549,7 @@ nav a:hover {
 		font-size: 0.8rem;
 		margin-bottom: 1rem;
 	}
-	.sample-blog, .recommended-news, .blog-img {
+	.sample-blog, .recommended-news, .blog-img, .categories {
 		margin-top: 1vw;
 	}
 }
